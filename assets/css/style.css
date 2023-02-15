@@ -13,11 +13,12 @@ body {
 }
 
 /* headings and logo*/
-h1, h2 {
-        font-family: Oswald, sans-serif;
-        text-transform: uppercase;
-        letter-spacing: 4px;
-        color: #252525;
+h1,
+h2 {
+    font-family: Oswald, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    color: #252525;
 }
 
 #logo {
@@ -25,32 +26,40 @@ h1, h2 {
     font-size: 280%;
     margin-left: 30px;
 
-    
+
 }
+
 /*Navigation links*/
 #menu {
     font-size: 110%;
     letter-spacing: 4px;
 }
-#menu, #logo {
+
+#menu,
+#logo {
     line-height: 75px;
 }
+
 #menu li {
     float: right;
     list-style-type: none;
     margin-right: 30px;
 }
+
 #menu a {
     text-decoration: none;
     color: inherit;
 
 }
+
 #menu a:hover {
     border-bottom: 1px solid #3a3a3a;
 }
+
 .active {
     border-bottom: 1px solid #3a3a3a;
 }
+
 /*Hero image*/
 #hero-outer {
     height: 600px;
@@ -59,10 +68,13 @@ h1, h2 {
 
     position: relative;
 }
-#cover-text, #cover-text h2 {
+
+#cover-text,
+#cover-text h2 {
     color: white;
 
 }
+
 #hero-image {
     height: 600px;
     width: 100%;
@@ -71,15 +83,18 @@ h1, h2 {
     animation-duration: 5s;
     animation-fill-mode: forwards;
 }
+
 /*Creates the zoom effect for hero image*/
 @keyframes hero-zoom {
-    from{
+    from {
         transform: scale(1);
     }
-    to{
+
+    to {
         transform: scale(1.1);
     }
 }
+
 #cover-text {
     font-size: 130%;
     font-family: Oswald, sans-serif;
@@ -99,36 +114,42 @@ h1, h2 {
 
     position: absolute;
 }
+
 /*club ethos*/
 
 #club-ethos {
     height: 600px;
 }
+
 #left-about {
     padding-top: 30px;
     width: 33%;
     float: left;
-    
-    
+
+
 }
+
 #right-about {
     padding-top: 30px;
     width: 33%;
     float: right;
-    
-  
+
+
 }
+
 #center-about {
     padding-top: 30px;
     width: 0 auto;
-    
-   
+
+
 }
+
 hr {
     border-top: 1px solid #3a3a3a;
     width: 100%;
     margin: 5px 0;
 }
+
 .left-about-heading {
     width: 60%;
     clear: both;
@@ -136,6 +157,7 @@ hr {
     line-height: 20px;
     margin-bottom: 50px;
 }
+
 .right-about-heading {
     width: 60%;
     clear: both;
@@ -143,6 +165,7 @@ hr {
     line-height: 20px;
     margin-bottom: 50px;
 }
+
 .right-about-heading h2 {
     text-align: right;
 }
@@ -150,11 +173,13 @@ hr {
 .right-about-heading p {
     text-align: right;
 }
+
 #welcome {
     text-align: center;
     margin: 20px 0;
     font-size: 280%;
 }
+
 #circle-container {
     width: 300px;
     height: 300px;
@@ -166,6 +191,7 @@ hr {
     margin: 0 auto;
 
 }
+
 #circle-cover-bg {
     background: url(../images/ethos-center-image.jpg) no-repeat center center;
     height: 100%;
@@ -197,4 +223,29 @@ hr {
 
 #times h2 {
     color: #fafafa;
+}
+
+/*Footer*/
+
+footer {
+    height: 150px;
+
+}
+
+.social-networks {
+    text-align: center;
+    list-style-type: none;
+
+}
+
+.social-networks li {
+    display: inline;
+
+}
+
+.social-networks i {
+    font-size: 160%;
+    margin: 1%;
+    padding: 5%;
+    color: #3a3a3a;
 }
